@@ -47,7 +47,9 @@ h4{
     width: 280px;
     height: 320px;
     margin: 0;
+    padding: 5px;
     display: block;
+    box-shadow: 0 0 8px;
 }
 .img{
     width: 100%;
@@ -77,4 +79,17 @@ p{
 }
 .rrr{
     text-decoration: line-through;
+}
+
+.emt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.star{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
 }
